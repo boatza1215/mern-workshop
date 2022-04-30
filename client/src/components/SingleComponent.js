@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState,useEffect } from "react";
 import NavbarComponent from "./NavbarComponent";
 
+
 const SingleComponent=(props)=>{
     const [blog,setBlogs] = useState('')
     useEffect(()=>{
